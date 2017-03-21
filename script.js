@@ -2,7 +2,7 @@
 $(document).ready(function () {
   
   
-  if (password === "hello")
+  if ($('#password').val() === "hello")
 {alert('Correct!')}
 else
 {alert('Wrong Password');
